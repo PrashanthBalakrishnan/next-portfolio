@@ -1,5 +1,5 @@
 import React from 'react'
-import { CgWorkAlt } from 'react-icons/cg'
+import { BsTools } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
 import aiPrompts from '@/public/Ai-Prompts.png'
 import aiService from '@/public/Ai-Service.png'
@@ -38,7 +38,7 @@ export const experiencesData = [
     location: 'Kearny, NJ',
     description:
       'Proven leader and resource manager driving company success through effective leadership and strategic allocation. Expert troubleshooter swiftly resolving system failures. Customer-centric team lead achieving remarkable results, recognized as the top Samsung Repair Store in the US, highlighting dedication to excellence.',
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(BsTools),
     date: '2017 - 2019',
   },
 
