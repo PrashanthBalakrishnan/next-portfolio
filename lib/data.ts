@@ -37,7 +37,7 @@ export const experiencesData = [
     title: 'Head Technician/Store Manager - UbreakiFix',
     location: 'Kearny, NJ',
     description:
-      'As a proven leader and resource manager, I have consistently driven company objectives to success through effective leadership and strategic resource allocation. My expertise as an expert troubleshooter and solutions implementer allowed me to swiftly resolve system failures and bugs, ensuring uninterrupted functionality. By emphasizing comprehensive knowledge in repairs, customer service, problem-solving, and sales among technicians, I enhanced all customer interactions and satisfaction. My role as a customer-centric team lead led to remarkable achievements, culminating in our team being recognized as the number one Samsung Repair Store in the United States, a prestigious accolade that highlights our exceptional performance and dedication to excellence.',
+      'Proven leader and resource manager driving company success through effective leadership and strategic allocation. Expert troubleshooter swiftly resolving system failures. Customer-centric team lead achieving remarkable results, recognized as the top Samsung Repair Store in the US, highlighting dedication to excellence.',
     icon: React.createElement(CgWorkAlt),
     date: '2017 - 2019',
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: 'Software Engineer - Blix',
     location: 'Jersey City, NJ',
     description:
-      "I played a key role in developing responsive web pages for the BlueMail application, which boasts over 10 Million downloads. I also contributed to creating a support help page to enhance user-friendliness and troubleshoot bugs. The technologies employed included HTML, CSS, JavaScript, and React. The primary focus was on ensuring the website's responsiveness across various devices and browsers, while adhering to web accessibility guidelines to provide an inclusive user experience. To manage issues effectively, I documented user-reported and trending bugs in Jira, ensuring their timely resolution. Regular monitoring and benchmarking of user-reported bugs were conducted to maintain a seamless user experience. Additionally, I optimized the website's performance to reduce load times and enhance overall efficiency.",
+      "Key role in developing responsive web pages for BlueMail app (10M+ downloads). Created user-friendly support help page, used HTML, CSS, JavaScript, and React. Ensured website's responsiveness and adhered to web accessibility guidelines for inclusive user experience. Managed bugs in Jira, monitored and benchmarked user-reported issues for timely resolution. Optimized performance for reduced load times and improved efficiency..",
     icon: React.createElement(FaReact),
     date: '2019 - 2022',
   },

@@ -11,7 +11,7 @@ import useSectionInView from '@/hooks/useSectionInView'
 import { useTheme } from '@/context/ThemeContext'
 
 const Experience = () => {
-  const { ref } = useSectionInView('Experience')
+  const { ref } = useSectionInView('Experience', 0.5)
   const { theme } = useTheme()
 
   return (

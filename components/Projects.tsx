@@ -6,11 +6,11 @@ import React from 'react'
 import useSectionInView from '@/hooks/useSectionInView'
 
 const Projects = () => {
-  const { ref } = useSectionInView('Projects', 0.5)
+  const { ref } = useSectionInView('Projects')
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+    <section id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
-      <div>
+      <div ref={ref}>
         {projectsData.map((project, idx) => (
           <React.Fragment key={idx}>
             <Project {...project} />
