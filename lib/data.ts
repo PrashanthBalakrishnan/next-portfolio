@@ -1,7 +1,6 @@
 import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
-import { LuGraduationCap } from 'react-icons/lu'
 import aiPrompts from '@/public/Ai-Prompts.png'
 import aiService from '@/public/Ai-Service.png'
 import getFit from '@/public/getFit.png'
@@ -35,28 +34,21 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Head Technician/Store Manager - UbreakiFix',
+    location: 'Kearny, NJ',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2019',
-  },
-  {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'As a proven leader and resource manager, I have consistently driven company objectives to success through effective leadership and strategic resource allocation. My expertise as an expert troubleshooter and solutions implementer allowed me to swiftly resolve system failures and bugs, ensuring uninterrupted functionality. By emphasizing comprehensive knowledge in repairs, customer service, problem-solving, and sales among technicians, I enhanced all customer interactions and satisfaction. My role as a customer-centric team lead led to remarkable achievements, culminating in our team being recognized as the number one Samsung Repair Store in the United States, a prestigious accolade that highlights our exceptional performance and dedication to excellence.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: '2017 - 2019',
   },
+
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Software Engineer - Blix',
+    location: 'Jersey City, NJ',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I played a key role in developing responsive web pages for the BlueMail application, which boasts over 10 Million downloads. I also contributed to creating a support help page to enhance user-friendliness and troubleshoot bugs. The technologies employed included HTML, CSS, JavaScript, and React. The primary focus was on ensuring the website's responsiveness across various devices and browsers, while adhering to web accessibility guidelines to provide an inclusive user experience. To manage issues effectively, I documented user-reported and trending bugs in Jira, ensuring their timely resolution. Regular monitoring and benchmarking of user-reported bugs were conducted to maintain a seamless user experience. Additionally, I optimized the website's performance to reduce load times and enhance overall efficiency.",
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2019 - 2022',
   },
 ] as const
 
@@ -64,22 +56,22 @@ export const projectsData = [
   {
     title: 'Ai Service',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+      'AI service is an web application that provdies services using openAI backend. ',
+    tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
     imageUrl: aiService,
   },
   {
     title: 'Ai Prompts',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+      'Ai Prompts is a web application that allows users to create, share and Run limitless AI prompts.',
+    tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
     imageUrl: aiPrompts,
   },
   {
     title: 'Gym Website',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'GetFit a website created for a local gym showcasing their services and facilities.',
+    tags: ['React', 'Next.js', 'Tailwind', 'Framer'],
     imageUrl: getFit,
   },
 ] as const
