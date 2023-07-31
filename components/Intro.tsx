@@ -69,7 +69,7 @@ const Intro = () => {
 
         <a
           className="bg-white px-7 py-3 flex items-center rounded-full gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition group cursor-pointer borderBlack dark:bg-white/10"
-          href="/PrashanthBalakrishnanResume.docx.pdf"
+          href="/PrashanthBalakrishnanResume.pdf"
           download
         >
           Download CV

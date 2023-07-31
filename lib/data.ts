@@ -54,18 +54,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Ai Service',
-    description:
-      'AI service is an web application that provdies services using openAI backend. ',
+    title: 'AI Service',
+    description: `AI Service is a cutting-edge web application harnessing the power of OpenAI's backend to provide a wide array of advanced services.`,
     tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
     imageUrl: aiService,
     gitHub: 'https://github.com/PrashanthBalakrishnan/saas-ai',
     liveDemo: 'https://ai-service-kappa.vercel.app/',
   },
   {
-    title: 'Ai Prompts',
+    title: 'AI Prompts',
     description:
-      'Ai Prompts is a web application that allows users to create, share and Run limitless AI prompts.',
+      'AI Prompts is an innovative web application that empowers users to effortlessly create, share, and run limitless AI prompts for various purposes.',
     tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
     imageUrl: aiPrompts,
     gitHub: 'https://github.com/PrashanthBalakrishnan/ai-prompts-v2',
@@ -74,7 +73,7 @@ export const projectsData = [
   {
     title: 'Gym Website',
     description:
-      'GetFit a website created for a local gym showcasing their services and facilities.',
+      'A dynamic website designed for a local gym, showcasing their top-notch services and state-of-the-art facilities.',
     tags: ['Vite', 'Tailwind', 'Framer', 'Frame Motion'],
     imageUrl: getFit,
     gitHub: 'https://github.com/PrashanthBalakrishnan/getFit',
