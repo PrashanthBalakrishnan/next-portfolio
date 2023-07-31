@@ -59,6 +59,8 @@ export const projectsData = [
       'AI service is an web application that provdies services using openAI backend. ',
     tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
     imageUrl: aiService,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/saas-ai',
+    liveDemo: 'https://ai-service-kappa.vercel.app/',
   },
   {
     title: 'Ai Prompts',
@@ -66,13 +68,18 @@ export const projectsData = [
       'Ai Prompts is a web application that allows users to create, share and Run limitless AI prompts.',
     tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
     imageUrl: aiPrompts,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/ai-prompts-v2',
+    liveDemo: 'https://ai-prompts-v2.vercel.app/',
   },
   {
     title: 'Gym Website',
     description:
       'GetFit a website created for a local gym showcasing their services and facilities.',
-    tags: ['React', 'Next.js', 'Tailwind', 'Framer'],
+    tags: ['Vite', 'Tailwind', 'Framer', 'Frame Motion'],
     imageUrl: getFit,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/getFit',
+    liveDemo:
+      'https://get-fit-9f83-hftmrp7a7-prashanthbalakrishnan.vercel.app/',
   },
 ] as const
 

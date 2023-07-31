@@ -12,6 +12,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  gitHub,
+  liveDemo,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
@@ -39,7 +41,7 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto mb-10">
             {tags.map((tag, idx) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
@@ -49,13 +51,29 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <div className="flex flex-row items-center justify-center gap-2">
+            <a
+              className="bg-gray-900 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-md dark:text-white/70 hover:bg-black/60"
+              href={gitHub}
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              className="bg-gray-900 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-md dark:text-white/70 hover:bg-black/60"
+              href={liveDemo}
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </div>
 
         <Image
           src={imageUrl}
           alt="Project i worked on"
           quality={95}
-          className="absolute hidden sm:block top-5 -right-40 w-[28.25rem] rounded-tl-lg shadow-2xl
+          className="absolute hidden sm:block top-5 -right-40 w-[28.25rem] rounded-lg shadow-2xl 
         group-even:right-[initial] group-even:-left-40
 
         group-hover:-translate-x-3
