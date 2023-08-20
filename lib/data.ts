@@ -54,14 +54,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'AI Service',
-    description: `AI Service is a cutting-edge web application harnessing the power of OpenAI's backend to provide a wide array of advanced services.`,
-    tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
-    imageUrl: aiService,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/saas-ai',
-    liveDemo: 'https://ai-service-kappa.vercel.app/',
-  },
-  {
     title: 'AI Prompts',
     description:
       'AI Prompts is an innovative web application that empowers users to effortlessly create, share, and run limitless AI prompts for various purposes.',
