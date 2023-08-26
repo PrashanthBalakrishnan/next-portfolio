@@ -2,7 +2,6 @@ import React from 'react'
 import { BsTools } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
 import aiPrompts from '@/public/Ai-Prompts.png'
-import aiService from '@/public/Ai-Service.png'
 import getFit from '@/public/getFit.png'
 
 export const links = [
@@ -46,7 +45,7 @@ export const experiencesData = [
     title: 'Software Engineer - Blix',
     location: 'Jersey City, NJ',
     description:
-      "Key role in developing responsive web pages for BlueMail app (10M+ downloads). Created user-friendly support help page, used HTML, CSS, JavaScript, and React. Ensured website's responsiveness and adhered to web accessibility guidelines for inclusive user experience. Managed bugs in Jira, monitored and benchmarked user-reported issues for timely resolution. Optimized performance for reduced load times and improved efficiency..",
+      "Key role in developing responsive web pages for BlueMail app (10M+ downloads). Created user-friendly support help page, used HTML, CSS, JavaScript, and React. Ensured website's responsiveness and adhered to web accessibility guidelines for inclusive user experience. Managed bugs in Jira, monitored and benchmarked user-reported issues for timely resolution. Optimized performance for reduced load times and improved efficiency.",
     icon: React.createElement(FaReact),
     date: '2019 - 2022',
   },
