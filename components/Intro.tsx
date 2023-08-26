@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import { FaGithub } from 'react-icons/fa'
+import { FaCodepen } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import useSectionInView from '@/hooks/useSectionInView'
 import { useActiveSectionContext } from '@/context/ActiveSectionContext'
@@ -88,6 +89,13 @@ const Intro = () => {
           target="_blank"
         >
           <FaGithub />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center rounded-full gap-2 text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition group cursor-pointer borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-gray-200 "
+          href="https://codepen.io/prashanthbalakrishnan"
+          target="_blank"
+        >
+          <FaCodepen />
         </a>
       </motion.div>
     </section>
