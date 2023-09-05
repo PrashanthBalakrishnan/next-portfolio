@@ -53,6 +53,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'AI Service',
+    description:
+      'AI Service allows you to interact with OpenAI API to generate image, create code, and answer questions.',
+    tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
+    imageUrl: aiPrompts,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/saas-ai',
+    liveDemo: 'https://ai-service-kappa.vercel.app/',
+  },
+  {
     title: 'AI Prompts',
     description:
       'AI Prompts is an innovative web application that empowers users to effortlessly create, share, and run limitless AI prompts for various purposes.',
