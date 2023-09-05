@@ -2,6 +2,7 @@ import React from 'react'
 import { BsTools } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
 import aiPrompts from '@/public/Ai-Prompts.png'
+import aiService from '@/public/Ai-Service.png'
 import getFit from '@/public/getFit.png'
 
 export const links = [
@@ -57,7 +58,7 @@ export const projectsData = [
     description:
       'AI Service allows you to interact with OpenAI API to generate image, create code, and answer questions.',
     tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
-    imageUrl: aiPrompts,
+    imageUrl: aiService,
     gitHub: 'https://github.com/PrashanthBalakrishnan/saas-ai',
     liveDemo: 'https://ai-service-kappa.vercel.app/',
   },
