@@ -4,6 +4,7 @@ import { FaReact } from 'react-icons/fa'
 import aiService from '@/public/Ai-Service.png'
 import getFit from '@/public/getFit.png'
 import eCommerce from '@/public/e-commerce-site.png'
+import dashboard from '@/public/e-commerce-dashboard.png'
 
 export const links = [
   {
@@ -78,6 +79,27 @@ export const projectsData = [
     imageUrl: eCommerce,
     gitHub: 'https://github.com/PrashanthBalakrishnan/e-commerce-store',
     liveDemo: 'https://e-commerce-store-snowy-omega.vercel.app/',
+  },
+  {
+    title: 'Dashboard to Manage e-commerce store',
+    description:
+      'Backend focused dashboard to manage products, categories,orders and more for an e-commerce store. This application has Public and Private API routes. Public API routes are used to fetch data for the e-commerce store and Private API routes are used to manage the e-commerce store.Please use the guest account to login to the dashboard.',
+    tags: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'TailwindCSS',
+      'Zustand',
+      'Axios',
+      'Stripe',
+      'shadcn/ui',
+      'Clerk.dev',
+      'React-Hot-Toast',
+      'Zod',
+    ],
+    imageUrl: dashboard,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/admin-panel',
+    liveDemo: 'https://e-commerce-admin-prashanthb.vercel.app/',
   },
   {
     title: 'Gym Website',
