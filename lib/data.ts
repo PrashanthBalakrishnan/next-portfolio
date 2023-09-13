@@ -83,7 +83,7 @@ export const projectsData = [
   {
     title: 'Dashboard to Manage e-commerce store',
     description:
-      'Backend focused dashboard to manage products, categories,orders and more for an e-commerce store. This application has Public and Private API routes. Public API routes are used to fetch data for the e-commerce store and Private API routes are used to manage the e-commerce store.Please use the guest account to login to the dashboard.',
+      'Backend focused dashboard to manage products, categories,orders and more for an e-commerce store.',
     tags: [
       'Next.js',
       'React',
