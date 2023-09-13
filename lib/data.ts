@@ -1,9 +1,9 @@
 import React from 'react'
 import { BsTools } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
-import aiPrompts from '@/public/Ai-Prompts.png'
 import aiService from '@/public/Ai-Service.png'
 import getFit from '@/public/getFit.png'
+import eCommerce from '@/public/e-commerce-site.png'
 
 export const links = [
   {
@@ -63,13 +63,21 @@ export const projectsData = [
     liveDemo: 'https://ai-service-kappa.vercel.app/',
   },
   {
-    title: 'AI Prompts',
+    title: 'E-Commerce Website',
     description:
-      'AI Prompts is an innovative web application that empowers users to effortlessly create, share, and run limitless AI prompts for various purposes.',
-    tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
-    imageUrl: aiPrompts,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/ai-prompts-v2',
-    liveDemo: 'https://ai-prompts-v2.vercel.app/',
+      'Front-end of an e-commerce website using Dashboard API to fetch products, categories and using Stripe API for payment processing.',
+    tags: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'TailwindCSS',
+      'Zustand',
+      'Axios',
+      'Stripe',
+    ],
+    imageUrl: eCommerce,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/e-commerce-store',
+    liveDemo: 'https://e-commerce-store-snowy-omega.vercel.app/',
   },
   {
     title: 'Gym Website',
