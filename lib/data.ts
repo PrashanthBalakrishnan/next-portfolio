@@ -81,7 +81,7 @@ export const projectsData = [
     liveDemo: 'https://e-commerce-store-snowy-omega.vercel.app/',
   },
   {
-    title: 'Dashboard to Manage e-commerce store',
+    title: 'Dashboard for E-Commerce Website',
     description:
       'Backend focused dashboard to manage products, categories,orders and more for an e-commerce store.',
     tags: [
