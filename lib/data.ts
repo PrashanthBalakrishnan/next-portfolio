@@ -94,7 +94,7 @@ export const projectsData = [
       'Stripe',
       'shadcn/ui',
       'Clerk.dev',
-      'React-Hot-Toast',
+      'Node Js',
       'Zod',
     ],
     imageUrl: dashboard,
