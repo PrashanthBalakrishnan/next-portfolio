@@ -1,10 +1,17 @@
 import React from 'react'
 import { BsTools } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
-import aiService from '@/public/Ai-Service.png'
+
+// Fullstack Projects
 import getFit from '@/public/getFit.png'
 import eCommerce from '@/public/e-commerce-site.png'
 import dashboard from '@/public/e-commerce-dashboard.png'
+
+// UI Projects
+import newsLetter from '@/public/ui-projects/NewsletterSignup.png'
+import resultSummary from '@/public/ui-projects/ResultSummary.png'
+import orderSummary from '@/public/ui-projects/OrderSummary.png'
+import interactiveRating from '@/public/ui-projects/InteractiveRating.png'
 
 export const links = [
   {
@@ -55,15 +62,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'AI Service',
-    description:
-      'AI Service allows you to interact with OpenAI API to generate image, create code, and answer questions.',
-    tags: ['Next.js', 'OpenAi API', 'Tailwind', 'Prisma'],
-    imageUrl: aiService,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/saas-ai',
-    liveDemo: 'https://ai-service-kappa.vercel.app/',
-  },
-  {
     title: 'E-Commerce Website',
     description:
       'Front-end of an e-commerce website using Dashboard API to fetch products, categories and using Stripe API for payment processing.',
@@ -107,6 +105,36 @@ export const projectsData = [
     gitHub: 'https://github.com/PrashanthBalakrishnan/getFit',
     liveDemo:
       'https://get-fit-9f83-hftmrp7a7-prashanthbalakrishnan.vercel.app/',
+  },
+] as const
+
+export const uiProjectsData = [
+  {
+    title: 'Newsletter sign-up form',
+    imageUrl: newsLetter,
+    gitHub:
+      'https://github.com/PrashanthBalakrishnan/newsletter-signup-component',
+    liveDemo: 'https://golden-genie-c40727.netlify.app/',
+  },
+  {
+    title: 'Results summary component',
+    imageUrl: resultSummary,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/result-summary-component',
+    liveDemo: 'https://reliable-manatee-f59b3b.netlify.app/',
+  },
+  {
+    title: 'Order summary component',
+    imageUrl: orderSummary,
+    gitHub:
+      'https://github.com/PrashanthBalakrishnan/order-summary-component-main',
+    liveDemo: 'https://sprightly-sunshine-57bdf5.netlify.app/',
+  },
+  {
+    title: 'Interactive rating component',
+    imageUrl: interactiveRating,
+    gitHub:
+      'https://github.com/PrashanthBalakrishnan/Interactive-rating-component',
+    liveDemo: 'https://interactive-rating-component-seven-eta.vercel.app/',
   },
 ] as const
 
