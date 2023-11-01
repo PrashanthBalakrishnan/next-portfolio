@@ -8,7 +8,7 @@ import eCommerce from '@/public/e-commerce-site.png'
 import dashboard from '@/public/e-commerce-dashboard.png'
 
 // UI Projects
-import newsLetter from '@/public/ui-projects/newsletterSignup.png'
+import newsLetter from '@/public/ui-projects/NewsletterSignup.png'
 import resultSummary from '@/public/ui-projects/resultSummary.png'
 import orderSummary from '@/public/ui-projects/orderSummary.png'
 import interactiveRating from '@/public/ui-projects/interactiveRating.png'
