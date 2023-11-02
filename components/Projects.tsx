@@ -13,7 +13,7 @@ const Projects = () => {
       <SectionHeading>My projects</SectionHeading>
 
       <Link
-        className="bg-gray-900 text-white px-7 py-3 mb-5 flex text-center justify-center w-1/2 mx-auto gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition group dark:bg-white/20"
+        className="bg-gray-900 text-white px-7 py-3 mb-5 flex text-center justify-center w-1/2 mx-auto gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition group dark:bg-white/90 dark:text-black"
         href="/uiprojects"
       >
         View my UI projects

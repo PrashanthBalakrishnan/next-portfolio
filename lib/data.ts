@@ -12,6 +12,9 @@ import newsLetter from '@/public/ui-projects/NewsletterSignup.png'
 import resultSummary from '@/public/ui-projects/resultSummary.png'
 import orderSummary from '@/public/ui-projects/orderSummary.png'
 import interactiveRating from '@/public/ui-projects/interactiveRating.png'
+import signupChannel from '@/public/ui-projects/signupChannel.png'
+import reviewCard from '@/public/ui-projects/reviewCard.png'
+import feedbackCard from '@/public/ui-projects/feedbackCard.png'
 
 export const links = [
   {
@@ -135,6 +138,24 @@ export const uiProjectsData = [
     gitHub:
       'https://github.com/PrashanthBalakrishnan/Interactive-rating-component',
     liveDemo: 'https://interactive-rating-component-seven-eta.vercel.app/',
+  },
+  {
+    title: 'Sign-up Channel',
+    imageUrl: signupChannel,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/ui-signupchannel',
+    liveDemo: 'https://ui-signupchannel.vercel.app/',
+  },
+  {
+    title: 'Review Card',
+    imageUrl: reviewCard,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/reviewCard',
+    liveDemo: 'https://review-card-one.vercel.app/',
+  },
+  {
+    title: 'Feedback Card',
+    imageUrl: feedbackCard,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/ui-feedbackcard',
+    liveDemo: 'https://ui-feedbackcard.vercel.app/',
   },
 ] as const
 
