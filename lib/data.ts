@@ -157,6 +157,12 @@ export const uiProjectsData = [
     gitHub: 'https://github.com/PrashanthBalakrishnan/ui-feedbackcard',
     liveDemo: 'https://ui-feedbackcard.vercel.app/',
   },
+  {
+    title: 'Login Component',
+    imageUrl: feedbackCard,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/log-in-component',
+    liveDemo: 'https://log-in-component.vercel.app/',
+  },
 ] as const
 
 export const skillsData = [
