@@ -15,6 +15,7 @@ import interactiveRating from '@/public/ui-projects/interactiveRating.png'
 import signupChannel from '@/public/ui-projects/signupChannel.png'
 import reviewCard from '@/public/ui-projects/reviewCard.png'
 import feedbackCard from '@/public/ui-projects/feedbackCard.png'
+import loginComponent from '@/public/ui-projects/loginComponent.png'
 
 export const links = [
   {
@@ -159,7 +160,7 @@ export const uiProjectsData = [
   },
   {
     title: 'Login Component',
-    imageUrl: feedbackCard,
+    imageUrl: loginComponent,
     gitHub: 'https://github.com/PrashanthBalakrishnan/log-in-component',
     liveDemo: 'https://log-in-component.vercel.app/',
   },
