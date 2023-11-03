@@ -162,7 +162,7 @@ export const uiProjectsData = [
     title: 'Login Component',
     imageUrl: loginComponent,
     gitHub: 'https://github.com/PrashanthBalakrishnan/age-calculator',
-    liveDemo: 'https://verdant-tarsier-1fec6e.netlify.app/',
+    liveDemo: 'https://log-in-component.vercel.app/',
   },
 ] as const
 
