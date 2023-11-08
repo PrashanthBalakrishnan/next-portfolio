@@ -14,8 +14,8 @@ import orderSummary from '@/public/ui-projects/orderSummary.png'
 import interactiveRating from '@/public/ui-projects/interactiveRating.png'
 import signupChannel from '@/public/ui-projects/signupChannel.png'
 import ageCalculator from '@/public/ui-projects/ageCalculator.png'
-import feedbackCard from '@/public/ui-projects/feedbackCard.png'
 import loginComponent from '@/public/ui-projects/loginComponent.png'
+import calculatorApp from '@/public/ui-projects/calculatorApp.png'
 
 export const links = [
   {
@@ -153,10 +153,10 @@ export const uiProjectsData = [
     liveDemo: 'https://verdant-tarsier-1fec6e.netlify.app/',
   },
   {
-    title: 'Feedback Card',
-    imageUrl: feedbackCard,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/ui-feedbackcard',
-    liveDemo: 'https://ui-feedbackcard.vercel.app/',
+    title: 'Calculator App',
+    imageUrl: calculatorApp,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/calculator-app',
+    liveDemo: 'https://warm-puppy-3608cf.netlify.app/',
   },
   {
     title: 'Login Component',
