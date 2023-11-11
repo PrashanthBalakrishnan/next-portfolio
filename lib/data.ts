@@ -14,8 +14,8 @@ import orderSummary from '@/public/ui-projects/orderSummary.png'
 import interactiveRating from '@/public/ui-projects/interactiveRating.png'
 import signupChannel from '@/public/ui-projects/signupChannel.png'
 import ageCalculator from '@/public/ui-projects/ageCalculator.png'
-import loginComponent from '@/public/ui-projects/loginComponent.png'
 import calculatorApp from '@/public/ui-projects/calculatorApp.png'
+import todoApp from '@/public/ui-projects/todoApp.png'
 
 export const links = [
   {
@@ -159,10 +159,10 @@ export const uiProjectsData = [
     liveDemo: 'https://warm-puppy-3608cf.netlify.app/',
   },
   {
-    title: 'Login Component',
-    imageUrl: loginComponent,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/age-calculator',
-    liveDemo: 'https://log-in-component.vercel.app/',
+    title: 'Todo App',
+    imageUrl: todoApp,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
+    liveDemo: 'https://main--tranquil-clafoutis-3c4aa9.netlify.app/',
   },
 ] as const
 
