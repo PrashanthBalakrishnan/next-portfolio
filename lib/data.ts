@@ -66,6 +66,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'Todo App',
+    description:
+      'A simple todo app built using React, TypeScript built with ability to edit, delete and add new todos.',
+    tags: [
+      'React',
+      'TypeScript',
+      'SCSS',
+      'Vitest',
+      'Github Actions',
+      'Playwright',
+    ],
+    imageUrl: todoApp,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
+    liveDemo: 'https://main--tranquil-clafoutis-3c4aa9.netlify.app/',
+  },
+  {
     title: 'E-Commerce Website',
     description:
       'Front-end of an e-commerce website using Dashboard API to fetch products, categories and using Stripe API for payment processing.',
@@ -157,12 +173,6 @@ export const uiProjectsData = [
     imageUrl: calculatorApp,
     gitHub: 'https://github.com/PrashanthBalakrishnan/calculator-app',
     liveDemo: 'https://warm-puppy-3608cf.netlify.app/',
-  },
-  {
-    title: 'Todo App',
-    imageUrl: todoApp,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
-    liveDemo: 'https://main--tranquil-clafoutis-3c4aa9.netlify.app/',
   },
 ] as const
 
