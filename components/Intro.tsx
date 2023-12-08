@@ -43,7 +43,7 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Prashanth.</span> I'm a
+        <h1 className="font-bold">Hello, I'm Prashanth.</h1> I'm a
         <span className="font-bold"> front-end developer</span> with
         <span className="font-bold"> 3 years</span> of experience. I enjoy
         building
@@ -80,6 +80,7 @@ const Intro = () => {
           className="bg-white p-4 text-gray-700 flex items-center rounded-full gap-2 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition group cursor-pointer borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-gray-200 "
           href="https://www.linkedin.com/in/prashanth-bala/"
           target="_blank"
+          aria-label="LinkedIn"
         >
           <BsLinkedin />
         </a>
@@ -87,6 +88,7 @@ const Intro = () => {
           className="bg-white p-4 text-gray-700 flex items-center rounded-full gap-2 text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition group cursor-pointer borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-gray-200 "
           href="https://github.com/PrashanthBalakrishnan"
           target="_blank"
+          aria-label="Github"
         >
           <FaGithub />
         </a>
@@ -94,6 +96,7 @@ const Intro = () => {
           className="bg-white p-4 text-gray-700 flex items-center rounded-full gap-2 text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition group cursor-pointer borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-gray-200 "
           href="https://codepen.io/prashanthbalakrishnan"
           target="_blank"
+          aria-label="Codepen"
         >
           <FaCodepen />
         </a>

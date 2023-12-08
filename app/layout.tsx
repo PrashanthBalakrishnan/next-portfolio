@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-gray-50 text-gray-950 relative pt-10  dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
+        className={`${inter.className} bg-gray-200 text-gray-950 relative pt-10  dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
         <ThemeContextProvider>
           <ActiveSectionContextProvider>

@@ -38,13 +38,13 @@ export default function Project({
       >
         <div className="pt-4 px-5 sm:pl-10 sm:pr-2 sm:pt-4 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-xl mt-1 font-semibold">{title}</h3>
-          <p className=" text-sm leading-relaxed text-gray-700 dark:text-white/70">
+          <p className=" text-sm leading-relaxed text-gray-900 dark:text-white/70">
             {description}
           </p>
           <ul className="flex flex-wrap  gap-2 sm:mt-auto mb-10 ">
             {tags.map((tag, idx) => (
               <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70 bg-gray-900"
                 key={idx}
               >
                 {tag}
