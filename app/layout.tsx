@@ -28,8 +28,7 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Analytics />
-
-            {children}
+            <main>{children}</main>
             <Toaster position="top-right" />
             <Footer />
             <ThemeSwitch />

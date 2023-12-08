@@ -22,7 +22,7 @@ const Contact = () => {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-      <p className="text-gray-700 -mt-6">
+      <p className="text-gray-700 -mt-6 dark:text-gray-300">
         Please contact me directly at{' '}
         <a className="underline" href="mailto:prashbala13@gmail.com">
           prashbala13@gmail.com

@@ -16,7 +16,9 @@ const UiProjects = () => {
       >
         Go back
       </Link>
-      <SectionHeading>UI projects</SectionHeading>
+      <h1 className="text-3xl font-medium capitalize mb-8 text-center">
+        UI projects
+      </h1>
       <div
         className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 "
         ref={ref}

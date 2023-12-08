@@ -7,7 +7,7 @@ const UiProject = ({ title, imageUrl, gitHub, liveDemo }: UiProjectProps) => {
   return (
     <section className="flex text-center">
       <div className=" flex flex-col items-center justify-start gap-5 bg-gray-100 p-3 max-w-[42rem]  rounded-lg borderBlack overflow-hidden hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white w-full">
-        <h3 className="text-sm md:text-xl mt-1 ">{title}</h3>
+        <h2 className="text-sm md:text-xl mt-1 ">{title}</h2>
         <Image
           className="w-[200px] h-[200px] object-cover rounded-xl"
           src={imageUrl}
