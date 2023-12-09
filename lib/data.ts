@@ -124,7 +124,7 @@ export const projectsData = [
     imageUrl: getFit,
     gitHub: 'https://github.com/PrashanthBalakrishnan/getFit',
     liveDemo:
-      'https://get-fit-9f83-hftmrp7a7-prashanthbalakrishnan.vercel.app/',
+      'https://get-fit-9f83.vercel.app/',
   },
 ] as const
 
