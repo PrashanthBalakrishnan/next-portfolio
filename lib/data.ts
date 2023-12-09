@@ -5,8 +5,7 @@ import { FaReact } from 'react-icons/fa'
 // Fullstack Projects
 import eCommerce from '@/public/e-commerce-site.png'
 import dashboard from '@/public/e-commerce-dashboard.png'
-import GETFIT from '@/public/GETFIT.png'
-
+import getFit from '@/public/getFit.png'
 // UI Projects
 import newsLetter from '@/public/ui-projects/NewsletterSignup.png'
 import resultSummary from '@/public/ui-projects/resultSummary.png'
@@ -121,7 +120,7 @@ export const projectsData = [
     description:
       'A dynamic website designed for a local gym, showcasing their top-notch services and state-of-the-art facilities.',
     tags: ['Vite', 'Tailwind', 'Framer', 'Frame Motion'],
-    imageUrl: GETFIT,
+    imageUrl: getFit,
     gitHub: 'https://github.com/PrashanthBalakrishnan/getFit',
     liveDemo: 'https://get-fit-9f83.vercel.app/',
   },

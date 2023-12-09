@@ -1,5 +1,4 @@
 'use client'
-import SectionHeading from '@/components/SectionHeading'
 import useSectionInView from '@/hooks/useSectionInView'
 import { uiProjectsData } from '@/lib/data'
 import React from 'react'
