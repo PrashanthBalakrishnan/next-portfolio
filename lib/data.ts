@@ -3,9 +3,9 @@ import { BsTools } from 'react-icons/bs'
 import { FaReact } from 'react-icons/fa'
 
 // Fullstack Projects
-import getFit from '@/public/getFit.png'
 import eCommerce from '@/public/e-commerce-site.png'
 import dashboard from '@/public/e-commerce-dashboard.png'
+import GETFIT from '@/public/GETFIT.png'
 
 // UI Projects
 import newsLetter from '@/public/ui-projects/NewsletterSignup.png'
@@ -121,10 +121,9 @@ export const projectsData = [
     description:
       'A dynamic website designed for a local gym, showcasing their top-notch services and state-of-the-art facilities.',
     tags: ['Vite', 'Tailwind', 'Framer', 'Frame Motion'],
-    imageUrl: getFit,
+    imageUrl: GETFIT,
     gitHub: 'https://github.com/PrashanthBalakrishnan/getFit',
-    liveDemo:
-      'https://get-fit-9f83.vercel.app/',
+    liveDemo: 'https://get-fit-9f83.vercel.app/',
   },
 ] as const
 
