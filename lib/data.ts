@@ -163,7 +163,7 @@ export const uiProjectsData = [
   {
     title: 'Age Calculator',
     imageUrl: ageCalculator,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/reviewCard',
+    gitHub: 'https://github.com/PrashanthBalakrishnan/age-calculator',
     liveDemo: 'https://verdant-tarsier-1fec6e.netlify.app/',
   },
   {
