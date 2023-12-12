@@ -67,14 +67,14 @@ export const projectsData = [
   {
     title: 'Todo App',
     description:
-      'A simple todo app built using React, TypeScript built with ability to edit, delete and add new todos.',
+      'A simple todo app built using React, TypeScript built with ability to edit, delete and add new todos.Also has CI/CD pipeline using Github Actions.Playwright for E2E testing and Vitests for component testing.',
     tags: [
       'React',
       'TypeScript',
       'SCSS',
       'Vitest',
       'Github Actions',
-      // 'Playwright',
+      'Playwright',
     ],
     imageUrl: todoApp,
     gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
