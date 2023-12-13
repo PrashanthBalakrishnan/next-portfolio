@@ -80,23 +80,23 @@ export const projectsData = [
     gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
     liveDemo: 'https://main--tranquil-clafoutis-3c4aa9.netlify.app/',
   },
-  // {
-  //   title: 'E-Commerce Website',
-  //   description:
-  //     'Front-end of an e-commerce website using Dashboard API to fetch products, categories and using Stripe API for payment processing.',
-  //   tags: [
-  //     'Next.js',
-  //     'React',
-  //     'TypeScript',
-  //     'TailwindCSS',
-  //     'Zustand',
-  //     'Axios',
-  //     'Stripe',
-  //   ],
-  //   imageUrl: eCommerce,
-  //   gitHub: 'https://github.com/PrashanthBalakrishnan/e-commerce-store',
-  //   liveDemo: 'https://e-commerce-store-snowy-omega.vercel.app/',
-  // },
+  {
+    title: 'E-Commerce Website',
+    description:
+      'Front-end of an e-commerce website using Dashboard API to fetch products, categories and using Stripe API for payment processing.',
+    tags: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'TailwindCSS',
+      'Zustand',
+      'Axios',
+      'Stripe',
+    ],
+    imageUrl: eCommerce,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/e-commerce-store',
+    liveDemo: 'https://e-commerce-store-snowy-omega.vercel.app/',
+  },
   // {
   //   title: 'Dashboard for E-Commerce Website',
   //   description:
