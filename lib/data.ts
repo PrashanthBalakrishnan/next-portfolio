@@ -6,6 +6,7 @@ import { FaReact } from 'react-icons/fa'
 import eCommerce from '@/public/e-commerce-site.png'
 import dashboard from '@/public/e-commerce-dashboard.png'
 import getFit from '@/public/getFit.png'
+import Aitools from '@/public/Ai-tools.png'
 // UI Projects
 import newsLetter from '@/public/ui-projects/NewsletterSignup.png'
 import resultSummary from '@/public/ui-projects/resultSummary.png'
@@ -86,7 +87,6 @@ export const projectsData = [
       'Front-end of an e-commerce website using Dashboard API to fetch products, categories and using Stripe API for payment processing.',
     tags: [
       'Next.js',
-      'React',
       'TypeScript',
       'TailwindCSS',
       'Zustand',
@@ -97,24 +97,15 @@ export const projectsData = [
     gitHub: 'https://github.com/PrashanthBalakrishnan/e-commerce-store',
     liveDemo: 'https://e-commerce-store-snowy-omega.vercel.app/',
   },
-  // {
-  //   title: 'Dashboard for E-Commerce Website',
-  //   description:
-  //     'Backend focused dashboard to manage products, categories,orders and more for an e-commerce store.',
-  //   tags: [
-  //     'Next.js',
-  //     'React',
-  //     'TypeScript',
-  //     'TailwindCSS',
-  //     'Zustand',
-  //     'shadcn/ui',
-  //     'Clerk.dev',
-  //     'Node Js',
-  //   ],
-  //   imageUrl: dashboard,
-  //   gitHub: 'https://github.com/PrashanthBalakrishnan/admin-panel',
-  //   liveDemo: 'https://e-commerce-admin-prashanthb.vercel.app/',
-  // },
+  {
+    title: 'AI tools',
+    description:
+      'Website that uses the power of openAI to create user friendly tools',
+    tags: ['Next.js', 'TypeScript', 'TailwindCSS', 'Axios', 'OpenAI API'],
+    imageUrl: Aitools,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/ai-tools',
+    liveDemo: 'https://openaitools.vercel.app/',
+  },
   {
     title: 'Gym Website',
     description:
