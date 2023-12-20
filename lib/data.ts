@@ -6,7 +6,7 @@ import { FaReact } from 'react-icons/fa'
 import eCommerce from '@/public/e-commerce-site.png'
 import dashboard from '@/public/e-commerce-dashboard.png'
 import getFit from '@/public/getFit.png'
-import Aitools from '@/public/Ai-tools.png'
+import Aitools from '@/public/Aitools.png'
 // UI Projects
 import newsLetter from '@/public/ui-projects/NewsletterSignup.png'
 import resultSummary from '@/public/ui-projects/resultSummary.png'
