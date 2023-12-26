@@ -15,8 +15,7 @@ import interactiveRating from '@/public/ui-projects/interactiveRating.png'
 import signupChannel from '@/public/ui-projects/signupChannel.png'
 import ageCalculator from '@/public/ui-projects/ageCalculator.png'
 import calculatorApp from '@/public/ui-projects/calculatorApp.png'
-import todoApp from '@/public/ui-projects/todoApp.png'
-
+import taskifyApp from '@/public/taskifyApp.png'
 export const links = [
   {
     name: 'Home',
@@ -66,18 +65,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Todo App',
+    title: 'Taskify App',
     description:
-      'A simple todo app built using React, TypeScript built with ability to edit, delete and add new todos.Also has CI/CD pipeline using Github Actions.Playwright for E2E testing and Vitests for component testing.',
+      'Productivity app that helps you organize your tasks and manage your time efficiently.',
     tags: [
       'React',
       'TypeScript',
       'SCSS',
-      'Vitest',
       'Github Actions',
+      'Vitest',
       'Playwright',
     ],
-    imageUrl: todoApp,
+    imageUrl: taskifyApp,
     gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
     liveDemo: 'https://main--tranquil-clafoutis-3c4aa9.netlify.app/',
   },
