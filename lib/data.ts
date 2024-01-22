@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: 'Taskify App',
     description:
-      'Productivity app that helps you organize your tasks and manage your time efficiently.',
+      'Productivity Application that uses pomodoro technique to help users focus on their tasks.',
     tags: [
       'React',
       'TypeScript',
@@ -78,7 +78,7 @@ export const projectsData = [
     ],
     imageUrl: taskifyApp,
     gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
-    liveDemo: 'https://main--tranquil-clafoutis-3c4aa9.netlify.app/',
+    liveDemo: 'https://main--snazzy-khapse-3bad74.netlify.app/',
   },
   {
     title: 'E-Commerce Website',
