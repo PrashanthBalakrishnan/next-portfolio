@@ -16,6 +16,8 @@ import signupChannel from '@/public/ui-projects/signupChannel.png'
 import ageCalculator from '@/public/ui-projects/ageCalculator.png'
 import calculatorApp from '@/public/ui-projects/calculatorApp.png'
 import taskifyApp from '@/public/taskifyApp.png'
+import faqAccordion from '@/public/ui-projects/faqAccordion.png'
+
 export const links = [
   {
     name: 'Home',
@@ -161,6 +163,12 @@ export const uiProjectsData = [
     imageUrl: calculatorApp,
     gitHub: 'https://github.com/PrashanthBalakrishnan/calculator-app',
     liveDemo: 'https://warm-puppy-3608cf.netlify.app/',
+  },
+  {
+    title: 'FAQ Accordion',
+    imageUrl: faqAccordion,
+    gitHub: 'https://github.com/PrashanthBalakrishnan/accordion-frontendmentor',
+    liveDemo: 'https://exquisite-flan-aedc86.netlify.app/',
   },
 ] as const
 
