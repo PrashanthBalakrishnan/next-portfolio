@@ -4,7 +4,7 @@ import { FaReact } from 'react-icons/fa'
 
 // Fullstack Projects
 import eCommerce from '@/public/e-commerce-site.png'
-import dashboard from '@/public/e-commerce-dashboard.png'
+import italizze from '@/public/italizze.png'
 import getFit from '@/public/getFit.png'
 import Aitools from '@/public/Aitools.png'
 // UI Projects
@@ -98,6 +98,27 @@ export const projectsData = [
   //   gitHub: 'https://github.com/PrashanthBalakrishnan/e-commerce-store',
   //   liveDemo: 'https://e-commerce-store-snowy-omega.vercel.app/',
   // },
+
+  {
+    title: 'ITALIZZE Resturaunt site',
+    description:
+      'Fullstack application that allows users to order food from a restaurant and admin to manage orders and menu items. Built using Next.js, TypeScript, TailwindCSS, Prisma, MongoDB, and deployed on Vercel.',
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'TailwindCSS',
+      'Zustand',
+      'Axios',
+      'Stripe',
+      'Prisma',
+      'MongoDB',
+      'Next-Auth',
+    ],
+    imageUrl: italizze,
+    gitHub:
+      'https://github.com/PrashanthBalakrishnan/fullstack-food-ordering-app',
+    liveDemo: 'https://fullstack-food-ordering-app-black.vercel.app/',
+  },
   {
     title: 'AI tools',
     description:
