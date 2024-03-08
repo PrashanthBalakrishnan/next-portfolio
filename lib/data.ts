@@ -100,9 +100,9 @@ export const projectsData = [
   // },
 
   {
-    title: 'ITALIZZE Resturaunt site',
+    title: 'ITALIZZE - Food Ordering Web app',
     description:
-      'Fullstack application that allows users to order food from a restaurant and admin to manage orders and menu items. Built using Next.js, TypeScript, TailwindCSS, Prisma, MongoDB, and deployed on Vercel.',
+      'Fullstack application that allows users to order food from a restaurant and admin to manage orders and menu items.',
     tags: [
       'Next.js',
       'TypeScript',
