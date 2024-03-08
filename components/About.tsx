@@ -16,20 +16,21 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Motivated and proficient professional seeking a challenging position to
-        develop dynamic web applications with expertise in{' '}
-        <span className="font-medium">
-          HTML5/CSS3, JavaScript, TypeScript, React.js, NextJs Stack and Prisma.
-        </span>{' '}
-        Passionate about delivering exceptional user experiences and
-        contributing to impactful projects. Eager to stay ahead in industry
-        trends and continuously enhance skills.
-      </p>
-      <p>
-        <span className="italic">Beyond coding</span>, I enjoy online chess,
-        captivating movies, exploring diverse cuisines, and hiking in nature
-        with loved ones. These enriching activities provide a refreshing balance
-        to my work and foster well-being and fulfillment.
+        Meet Prashanth Balakrishnan, an accomplished Software Engineer based in
+        Union, NJ, proficient in both{' '}
+        <span className="font-medium italic">MEAN and MERN stacks</span>. With
+        expertise in HTML, CSS, JavaScript, TypeScript, React, Angular, and
+        more, Prashanth has contributed significantly to the development of
+        scalable web applications at Blix in Jersey City. His commitment to web
+        accessibility, collaborative approach with cross-functional teams, and
+        meticulous testing practices have led to optimal functionality and
+        innovation. As a Head Technician and Store Manager at UBreakiFix,
+        Prashanth demonstrated strong leadership, efficient hardware
+        troubleshooting, and customer-centric solutions. Holding a Bachelor's
+        degree in Computer Science, AWS certification, and completing the
+        Front-end Developer Career Path at Scrimba, Prashanth brings a
+        well-rounded skill set and a proven track record, showcased in his
+        portfolio.
       </p>
     </motion.section>
   )
