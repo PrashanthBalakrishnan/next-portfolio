@@ -112,6 +112,7 @@ export const projectsData = [
       'Stripe',
       'Prisma',
       'MongoDB',
+      'NodeJs',
       'Next-Auth',
     ],
     imageUrl: italizze,
@@ -123,7 +124,14 @@ export const projectsData = [
     title: 'AI tools',
     description:
       'Website that uses the power of openAI to create user friendly tools',
-    tags: ['Next.js', 'TypeScript', 'TailwindCSS', 'Axios', 'OpenAI API'],
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'NodeJs',
+      'TailwindCSS',
+      'Axios',
+      'OpenAI API',
+    ],
     imageUrl: Aitools,
     gitHub: 'https://github.com/PrashanthBalakrishnan/ai-tools',
     liveDemo: 'https://openaitools.vercel.app/',
