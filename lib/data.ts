@@ -66,22 +66,22 @@ export const experiencesData = [
 ] as const
 
 export const projectsData = [
-  {
-    title: 'Taskify App',
-    description:
-      'Productivity Application that uses pomodoro technique to help users focus on their tasks.',
-    tags: [
-      'React',
-      'TypeScript',
-      'SCSS',
-      'Github Actions',
-      'Vitest',
-      'Playwright',
-    ],
-    imageUrl: taskifyApp,
-    gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
-    liveDemo: 'https://main--snazzy-khapse-3bad74.netlify.app/',
-  },
+  // {
+  //   title: 'Taskify App',
+  //   description:
+  //     'Productivity Application that uses pomodoro technique to help users focus on their tasks.',
+  //   tags: [
+  //     'React',
+  //     'TypeScript',
+  //     'SCSS',
+  //     'Github Actions',
+  //     'Vitest',
+  //     'Playwright',
+  //   ],
+  //   imageUrl: taskifyApp,
+  //   gitHub: 'https://github.com/PrashanthBalakrishnan/toDoApp-frontendmentor',
+  //   liveDemo: 'https://main--snazzy-khapse-3bad74.netlify.app/',
+  // },
   // {
   //   title: 'E-Commerce Website',
   //   description:
